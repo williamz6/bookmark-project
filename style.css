@@ -1,0 +1,119 @@
+body{
+    font-family: 'Rubik', sans-serif!important;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    /* margin: 10px; */
+}
+nav ul li{
+    display: flex;
+    padding-left: 30px;
+}
+p{
+    font-size: 14px;
+}
+.bookmark_body{
+    margin-top: 5rem;
+}
+.empty{
+    height:70%;
+    width:70%;
+    border-left: 50%!important;
+    /* order-left: 100%; */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    content: "";
+    background: hsl(231, 69%, 60%);
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+.empty-right{
+    height:70%;
+    width:70%;
+    border-left: 50%!important;
+    /* order-left: 100%; */
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    content: "";
+    background: hsl(231, 69%, 60%);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+}
+.mx-7{
+    margin-left: 6.5rem!important;
+    margin-right:6.5rem!important;
+}
+
+.btn-custom-blue{
+    background: hsl(231, 69%, 60%);
+    color: white;
+}
+.btn-custom-red{
+    background: hsl(0, 94%, 66%);
+    color: white;
+}
+.custom-blue{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+}
+.custom-dark-blue{
+    background-color: hsl(229, 31%, 21%);
+    color: white;
+}
+.btn-custom-neutral{
+    background: hsl(229, 8%, 60%);
+    
+}
+
+.features-list ul li:hover{
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+.mobile-view{
+    display: none;
+}
+/* features-list mobile-view */
+.text-responsive {
+font-size: calc(100% + 1vw + 1vh)!important;
+}
+@media only screen and (max-width: 600px) {
+    .bookmark p{
+        text-align: center;
+    }
+    .mx-7{
+        margin-left: calc(6.5rem - 6.5rem)!important;
+        margin-right: calc(6.5rem - 6.5rem)!important;
+    }
+    .features-list{
+        font-size: .9rem!important;
+    }
+    .features p{
+        font-size: .9rem;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .desktop-view{
+        display: none!important;;
+    }
+    .card{
+        max-width: 100%;
+        margin: 0 auto!important;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .mx-7{
+        margin-left: calc(6.5rem - 6.5rem)!important;
+        margin-right: calc(6.5rem - 6.5rem)!important;
+    }
+}
