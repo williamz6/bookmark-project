@@ -102,9 +102,6 @@ font-size: calc(100% + 1vw + 1vh)!important;
     .features-list{
         font-size: .9rem!important;
     }
-    .features p{
-        font-size: .9rem;
-    }
     .mobile-view{
         display: block;
     }
