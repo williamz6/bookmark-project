@@ -15,9 +15,6 @@ nav ul li{
     display: flex;
     padding-left: 30px;
 }
-p{
-    font-size: 14px;
-}
 .bookmark_body{
     margin-top: 5rem;
 }
